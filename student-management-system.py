@@ -102,7 +102,7 @@ def read_records():
     infile.close()
 
 def search_record():
-    #open file in binary mode for reading
+    #open file in binary  mode for reading
     try:
         infile = open('student.dat', 'rb')
     except FileNotFoundError:
